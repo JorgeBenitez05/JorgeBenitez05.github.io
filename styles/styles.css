@@ -1,0 +1,98 @@
+/* paleta de colores:#332d27,#8a0015,#e30224,#85725f,#fae1c0
+ */
+*{
+padding: 0;
+margin: 0;
+}
+a{
+color: #fae1c0;
+}
+
+.fondo{
+height: 70vh;
+width: auto;    
+background-image:url(../images/spiderman.jpg);  
+background-size: cover;  
+}
+
+nav{
+display:flex;
+flex-wrap: wrap;
+align-items:baseline;
+width:100%;
+height: 10vh;
+}
+
+div{
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.logo{
+text-align: center;
+padding: 10px;
+font-size: 50px;
+height: 10vh;
+font: bold;
+color: #872341;
+background-color: #22092C;
+}
+
+nav .barnav{
+width: 100vw;
+height: 10vh;
+background-color: #872341;
+}
+
+nav .barnav div{
+margin: 10px;
+padding: 10px 20px;
+}
+
+nav .barnav div:hover{
+cursor: pointer;
+background-color: #F05941;
+}
+
+footer{
+color: white;
+height: 10vh;
+background-color: black;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    main {
+    padding: 10px;
+    }
+    .fondo{
+    height: 70vh;
+    width: auto;
+    background-image:url(../images/spiderman_Movil.jpg);  
+    background-size: cover;
+    }
+   }
+   
+/* Estilos para tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    main {
+    max-width: 600px;
+    }
+    .fondo{
+    height: 70vh;
+    width:auto;
+    background-image:url(../images/spiderman_Tablet.jpg);
+    background-size: cover;
+    }
+   }
+
+
+
+   
+   

@@ -1,0 +1,160 @@
+/* paleta de colores:#332d27,#8a0015,#e30224,#85725f,#fae1c0
+ */
+    *{
+    padding: 0;
+    margin: 0;
+    }
+
+    a{
+    color: #fae1c0;
+    }
+    
+    nav{
+    display:flex;
+    flex-wrap: wrap;
+    align-items:baseline;
+    width:100%;
+    height: 10vh;
+    }
+    
+    div{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .logo{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    height: 10vh;
+    font: bold;
+    color: #872341;
+    background-color: #22092C;
+    }
+    
+    nav .barnav{
+    width: 100vw;
+    height: 10vh;
+    background-color: #872341;
+    }
+    
+    nav .barnav div{
+    margin: 10px;
+    padding: 10px 20px;
+    }
+    
+    nav .barnav div:hover{
+    cursor: pointer;
+    background-color: #F05941;
+    }
+    
+    footer{
+    color: white;
+    height: 10vh;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .interna2{
+        background-image:url(../images/fondo.png);
+        background-size: cover;
+        width: 100vw;
+        height: 68vh;
+    
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    form input[type="text"]{
+        padding:3px 10px;
+        border:1px solid #74aa9b;
+        border-radius:3px;
+        background-color:#74aa9b;
+        margin:8px 0;
+        display:inline-block;
+    }
+
+    form input[type="email"]{
+        padding:3px 10px;
+        border:1px solid #74aa9b;
+        border-radius:3px;
+        background-color:#74aa9b;
+        margin:8px 0;
+        display:inline-block;
+    }
+    
+    form input[type="tel"]{
+        padding:3px 10px;
+        border:1px solid #74aa9b;
+        border-radius:3px;
+        background-color:#74aa9b;
+        margin:8px 0;
+        display:inline-block;
+    }
+
+    form input[type="date"]{
+        padding:3px 10px;
+        border:1px solid #74aa9b;
+        border-radius:3px;
+        background-color:#74aa9b;
+        margin:8px 0;
+        display:inline-block;
+    }
+    /* Bloque Enviar */
+    form input[type="submit"]{
+        width:100%;
+        padding:8px 16px;
+        margin-top:32px;
+        border:1px solid #000;
+        border-radius:5px;
+        
+        display:block;
+        color:#f6f5cd;
+        background-color:#796c86;
+    } 
+    /* Se active el cursor al pasar por encima de Enviar*/
+    form input[type="submit"]:hover{
+        cursor:pointer;
+    }
+    .flexformulario{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    
+    /* Cuadrado del forumulario */
+     form{
+        width:300px;
+        padding:16px;
+        border-radius:10px;
+        margin:auto;
+        background-color:#ece488;
+    }
+    
+    /* Letras formulario */
+    form label{
+        width:300px;
+        font-weight:bold;
+        color: #796c86;
+        display: flex;
+    }
+
+    .politica{
+        color: #796c86;
+        font-weight: bold;
+        font-size: 12px;
+
+    }
+    p{
+        color: #796c86;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+        

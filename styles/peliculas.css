@@ -1,0 +1,263 @@
+/* paleta de colores:#332d27,#8a0015,#e30224,#85725f,#fae1c0
+ */
+
+ *{
+    margin: 0;
+    padding:0;
+}
+
+.logo{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    height: 10vh;
+    font: bold;
+    color: #872341;
+    background-color: #22092C;
+    }
+a{
+    color: #fae1c0;
+}
+div{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    align-items:baseline;
+    width:100%;
+    height: 10vh;
+    }
+
+nav .barnav{
+    width: 100vw;
+    height: 10vh;
+    background-color: #872341;
+    }
+nav .barnav div{
+margin: 10px;
+padding: 10px 20px;
+}
+
+nav .barnav div:hover{
+cursor: pointer;
+background-color: #F05941;
+}    
+
+.contenedor, .contenedor>nav, .contenedor>article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.interna2{
+    background-image:url(../images/fondo.png);
+    background-size: cover;
+    width: 100vw;
+    height: 68vh;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interna2 > div{
+    width: 23vw;
+    height: 25vh;
+    margin: 2px;
+    background-color: #eaf27e;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer{
+    color: white;
+    height: 10vh;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .spiderman1{
+        background-image:url(../images/Spiderman1.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 25px;
+    }
+
+    .spiderman2{
+        background-image:url(../images/Spiderman2.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 25px;
+    }
+
+    .spiderman3{
+        background-image:url(../images/Spiderman3.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 25px;
+    }
+
+    .spiderman4{
+        background-image:url(../images/Spiderman4.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 25px;
+    }
+    .spiderman5{
+        background-image:url(../images/Spiderman5.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 25px;
+    }
+    .spiderman6{
+        background-image:url(../images/Spiderman6.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 25px;
+    }
+    .spiderman7{
+        background-image:url(../images/Spiderman7.png);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 25px;
+    }
+    .spiderman8{
+        background-image:url(../images/Spiderman8.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 25px;
+    }
+
+    /* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    main {
+    padding: 10px;
+    }
+    a{
+        color: #fae1c0;
+    }
+    .spiderman1{
+        background-image:url(../images/Spiderman1.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+
+    .spiderman2{
+        background-image:url(../images/Spiderman2.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+
+    .spiderman3{
+        background-image:url(../images/Spiderman3.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+
+    .spiderman4{
+        background-image:url(../images/Spiderman4.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+    .spiderman5{
+        background-image:url(../images/Spiderman5movil.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+    .spiderman6{
+        background-image:url(../images/Spiderman6movil.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+    .spiderman7{
+        background-image:url(../images/Spiderman7.png);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+    .spiderman8{
+        background-image:url(../images/Spiderman8.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+ 
+   }
+   
+/* Estilos para tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    main {
+    max-width: 600px;
+    }
+    a{
+        color: #fae1c0;
+    }
+    .spiderman1{
+        background-image:url(../images/Spiderman1.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+
+    .spiderman2{
+        background-image:url(../images/Spiderman2.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+
+    .spiderman3{
+        background-image:url(../images/Spiderman3.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+
+    .spiderman4{
+        background-image:url(../images/Spiderman4.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+    .spiderman5{
+        background-image:url(../images/spiderman5movil.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+    .spiderman6{
+        background-image:url(../images/spiderman6movil.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+    .spiderman7{
+        background-image:url(../images/Spiderman7.png);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+    .spiderman8{
+        background-image:url(../images/Spiderman8.jpg);
+        background-size: cover;
+        color: #fae1c0;
+        font-size: 15px;
+    }
+   
+   }

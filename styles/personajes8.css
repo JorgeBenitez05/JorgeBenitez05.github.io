@@ -1,0 +1,146 @@
+/* paleta de colores:#332d27,#8a0015,#e30224,#85725f,#fae1c0
+ */
+
+ *{
+    margin: 0;
+    padding:0;
+}
+
+.logo{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    height: 10vh;
+    font: bold;
+    color: #872341;
+    background-color: #22092C;
+}
+
+div{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo{
+    background-image:url(../images/fondo.png);
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    color: white;
+    height: 10vh;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor, .contenedor>nav, .contenedor>article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.interna2{
+    background-image:url(../images/fondo.png);
+    background-size: cover;
+    width: 100vw;
+    height: 68vh;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interna2 > div{
+    width: 15vw;
+    height: 30vh;
+    margin: 2px;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.Tom{
+    background-image:url(../images/tom.webp);
+    background-size: cover;
+}
+.Benedict{
+    background-image:url(../images/benedict.webp);
+    background-size: cover;
+}
+
+.Jamie{
+    background-image:url(../images/jamie.webp);
+    background-size: cover;
+}
+
+.Zendaya{
+    background-image:url(../images/zendaya.webp);
+    background-size: cover;
+}
+.Willem{
+    background-image:url(../images/willem.webp);
+    background-size: cover;
+}
+
+.Jon{
+    background-image:url(../images/jon.webp);
+    background-size: cover;
+}
+
+.Jacob{
+    background-image:url(../images/jacob.webp);
+    background-size: cover;
+}
+.Alfred{
+    background-image:url(../images/alfred.webp);
+    background-size: cover;
+}
+
+  /* Estilos para dispositivos móviles */
+  @media only screen and (max-width: 600px) {
+    main {
+    padding: 10px;
+    }
+    h1{
+        font-size: 11px;
+    }
+    .interna2 > div{
+        width: 20vw;
+        height: 30vh;
+        margin: 2px;
+    
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+    
+   
+   }
+   
+/* Estilos para tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    main {
+    max-width: 600px;
+    }
+    h1{
+        font-size: 13px;
+    }
+    .interna2 > div{
+        width: 20vw;
+        height: 30vh;
+        margin: 2px;
+    
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+}   
+

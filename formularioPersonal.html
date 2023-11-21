@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/formularioPersonal.css">
+
+    <title>Formulario personal</title>
+</head>
+<body>
+    <body>
+        <div class="logo">Formulario personal</div>
+    <nav>
+        
+        <div class="barnav">
+        <a href="index.html">
+        <div>Inicio</div>
+        </a>
+        <a href="personajes.html">
+        <div>Personajes</div>
+        </a>
+        <a href="peliculas.html">
+        <div>Peliculas</div>
+        </a>
+        <a href="formularioPelicula.html">
+        <div>Formulario película</div>
+        </a>
+        </div>
+    </nav>
+
+    <article class="interna2">
+        <form action="#" target="" method="get" name="formDatosPersonales">
+
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" pattern="[A-Z ÁÉÍÓÚ][a-z áéíóú]+(\s[a-z]+){0,2}(\s[A-Z ÁÉÍÓÚ][a-z áéíóú]+)*" required/>
+        
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Introduce tus apellidos" pattern="[A-Z ÁÉÍÓÚ][a-z áéíóú]+(\s[a-z]+){0,2}(\s[A-Z ÁÉÍÓÚ][a-z áéíóú]+)*" />
+        
+            <label for="ciudad">Ciudad</label>
+            <input type="text" name="ciudad" id="ciudad" placeholder="Ej: Málaga"  pattern="[A-Z ÁÉÍÓÚ][a-z áéíóú]*"/>
+            
+            <label for="gusto">¿Por qué te gusta Spider-Man?</label>
+            <input type="text" name="gusto" id="gusto" pattern="[A-Z ÁÉÍÓÚ a-z áéíóú]*"/>
+
+            <label for="Observaciones">Observaciones</label>
+            <input type="text" name="Observaciones" id="Observaciones"  pattern="[A-Z ÁÉÍÓÚ a-z áéíóú]*"/>
+            
+            <br>
+
+            <input type="checkbox" id="politica" name="politica" value="politica" required>
+            <p class="politica">Aceptas los Términos de servicio y la Política de privacidad, incluida la política de Uso de Cookies.</p>            
+            <input type="submit" name="enviar" value="Enviar"/>
+
+            
+        </form>
+    </article>  
+    
+        <footer>
+            <h2>Desarrollado por Jorge Benítez Lladó</h2>
+        </footer>  
+    
+</body>
+</html>
