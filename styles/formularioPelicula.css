@@ -30,7 +30,8 @@
     font-size: 50px;
     height: 10vh;
     font: bold;
-    color: #872341;
+    color: #fae1c0;
+    font-family: 'Cormorant', serif;
     background-color: #22092C;
     }
     
@@ -47,8 +48,8 @@
     
     nav .barnav div:hover{
     cursor: pointer;
-    background-color: #F05941;
-    }
+    background-color: #22092C;
+}
     
     footer{
     color: white;

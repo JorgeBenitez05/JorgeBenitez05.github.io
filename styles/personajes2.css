@@ -12,7 +12,8 @@
     font-size: 50px;
     height: 10vh;
     font: bold;
-    color: #872341;
+    color: #fae1c0;
+    font-family: 'Cormorant', serif;
     background-color: #22092C;
 }
 
@@ -70,10 +71,12 @@ footer{
 .Tobey{
     background-image:url(../images/tobey.webp);
     background-size: cover;
+    color: #fae1c0;
 }
 .JK{
     background-image:url(../images/jk.webp);
     background-size: cover;
+    color: #fae1c0;
 }
 
 .Willem{
@@ -84,6 +87,7 @@ footer{
 .Alfred{
     background-image:url(../images/alfred.webp);
     background-size: cover;
+    color: #fae1c0;
 }
 .Kirsten{
     background-image:url(../images/kirsten.jpg);
@@ -102,6 +106,7 @@ footer{
 .Daniel{
     background-image:url(../images/daniel.webp);
     background-size: cover;
+    color: #fae1c0;
 }
 
   /* Estilos para dispositivos móviles */
@@ -110,10 +115,12 @@ footer{
     padding: 10px;
     }
     h1{
-        font-size: 11px;
+        font-size: 16px;
+        margin: 3px;
+
     }
     .interna2 > div{
-        width: 20vw;
+        width: 22vw;
         height: 30vh;
         margin: 2px;
     
@@ -131,10 +138,11 @@ footer{
     max-width: 600px;
     }
     h1{
-        font-size: 13px;
+        font-size: 16px;
+        margin: 3px;
     }
     .interna2 > div{
-        width: 20vw;
+        width: 22vw;
         height: 30vh;
         margin: 2px;
     

@@ -12,7 +12,8 @@
     font-size: 50px;
     height: 10vh;
     font: bold;
-    color: #872341;
+    color: #fae1c0;
+    font-family: 'Cormorant', serif;
     background-color: #22092C;
 }
 
@@ -70,6 +71,7 @@ footer{
 .Tom{
     background-image:url(../images/tom.webp);
     background-size: cover;
+    color: #fae1c0;
 }
 .Jake{
     background-image:url(../images/jake.webp);
@@ -79,11 +81,13 @@ footer{
 .Samuel{
     background-image:url(../images/samuel.webp);
     background-size: cover;
+    color:#8a0015;
 }
 
 .Zendaya{
     background-image:url(../images/zendaya.webp);
     background-size: cover;
+    color: #fae1c0;
 }
 .Marisa{
     background-image:url(../images/marisa.jpg);
@@ -98,6 +102,7 @@ footer{
 .Jacob{
     background-image:url(../images/jacob.webp);
     background-size: cover;
+    color:#8a0015;
 }
 .Cobie{
     background-image:url(../images/cobie.webp);
@@ -110,10 +115,11 @@ footer{
     padding: 10px;
     }
     h1{
-        font-size: 11px;
+        font-size: 16px;
+        margin: 3px;
     }
     .interna2 > div{
-        width: 20vw;
+        width: 22vw;
         height: 30vh;
         margin: 2px;
     
@@ -121,8 +127,17 @@ footer{
         align-items: end;
         justify-content: center;
     }
+    .logo{
+        text-align: center;
+        padding: 10px;
+        font-size: 42px;
+        height: 10vh;
+        font: bold;
+        color: #fae1c0;
+        font-family: 'Cormorant', serif;
+        background-color: #22092C;
+    }
     
-   
    }
    
 /* Estilos para tablets */
@@ -131,16 +146,27 @@ footer{
     max-width: 600px;
     }
     h1{
-        font-size: 13px;
+        font-size: 16px;
+        margin: 3px;
     }
     .interna2 > div{
-        width: 20vw;
+        width: 22vw;
         height: 30vh;
         margin: 2px;
     
         display: flex;
         align-items: end;
         justify-content: center;
+    }
+    .logo{
+        text-align: center;
+        padding: 10px;
+        font-size: 42px;
+        height: 10vh;
+        font: bold;
+        color: #fae1c0;
+        font-family: 'Cormorant', serif;
+        background-color: #22092C;
     }
 }   
 

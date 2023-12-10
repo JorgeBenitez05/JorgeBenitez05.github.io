@@ -12,7 +12,8 @@
     font-size: 50px;
     height: 10vh;
     font: bold;
-    color: #872341;
+    color: #fae1c0;
+    font-family: 'Cormorant', serif;
     background-color: #22092C;
 }
 
@@ -70,24 +71,31 @@ footer{
 .Andrew{
     background-image:url(../images/andrew.webp);
     background-size: cover;
+    color: #fae1c0;
+
 }
 .Emma{
     background-image:url(../images/emma.jpg);
     background-size: cover;
+    color: #fae1c0;
 }
 
 .Rhys{
     background-image:url(../images/rhys.webp);
     background-size: cover;
+    color: #fae1c0;
 }
 
 .Denis{
     background-image:url(../images/denis.webp);
     background-size: cover;
+    color: #fae1c0;
+
 }
 .Campbell{
     background-image:url(../images/campbell-webp.webp);
     background-size: cover;
+    color: #fae1c0;
 }
 
 .Irrfan{
@@ -102,6 +110,8 @@ footer{
 .Sally{
     background-image:url(../images/sally.webp);
     background-size: cover;
+    color: #fae1c0;
+
 }
 
   /* Estilos para dispositivos móviles */
@@ -110,16 +120,27 @@ footer{
     padding: 10px;
     }
     h1{
-        font-size: 11px;
+        font-size: 16px;
+        margin: 4px;
     }
     .interna2 > div{
-        width: 20vw;
+        width: 22vw;
         height: 30vh;
         margin: 2px;
     
         display: flex;
         align-items: end;
         justify-content: center;
+    }
+    .logo{
+        text-align: center;
+        padding: 10px;
+        font-size: 44px;
+        height: 10vh;
+        font: bold;
+        color: #fae1c0;
+        font-family: 'Cormorant', serif;
+        background-color: #22092C;
     }
     
    
@@ -131,16 +152,27 @@ footer{
     max-width: 600px;
     }
     h1{
-        font-size: 13px;
+        font-size: 16px;
+        margin: 4px;
     }
     .interna2 > div{
-        width: 20vw;
+        width: 22vw;
         height: 30vh;
         margin: 2px;
     
         display: flex;
         align-items: end;
         justify-content: center;
+    }
+    .logo{
+        text-align: center;
+        padding: 10px;
+        font-size: 44px;
+        height: 10vh;
+        font: bold;
+        color: #fae1c0;
+        font-family: 'Cormorant', serif;
+        background-color: #22092C;
     }
 }   
 
